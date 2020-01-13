@@ -1,29 +1,55 @@
 * {
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
+  border-radius: 20px;
 }
-caption {
-  font-size: 20px;
-  padding: 5px;
-}
-table, th, td {
-  border: 1px solid black;
+div {
+  background-color: #303030;
+  padding: 10px;
   text-align: center;
-  border-collapse: collapse;
 }
-th, td {
-  padding: 8px;
-  font-size: 12px;
+body header {
+  background-color: #a0a0a0;
+  font-size: 20px;
+  padding: 3vh 1vw;
 }
-tbody tr:nth-child(odd) td:nth-child(5) {
-  background-color: green;
+main {
 }
-tbody tr:nth-child(even) td:nth-child(6) {
-  background-color: red;
+section {
+  background-color: #505050;
+  padding: 2vh 3vw;
+  margin: 10px;
+  display: inline-block;
+  height: 215px;
 }
-tbody tr:nth-child(even) {
-  background-color: #d8d8d8;
+section header {
+  background-color: #a0a0a0;
+  font-size: 15px;
+  padding: 1vh 1vw;
 }
-tbody tr:nth-child(odd) {
-  background-color: #b2b2b2;
+section article {
+  background-color: #a0a0a0;
+  font-size: 10px;
+  padding: 5px;
+  margin: 20px;
+}
+section footer {
+  background-color: #a0a0a0;
+  font-size: 13px;
+  padding: 5px;
+  margin: 5px;
+}
+nav, aside {
+  background-color: #a0a0a0;
+  font-size: 14px;
+  padding: 30px;
+  margin: 5px;
+  display: inline-block;
+  height: 190px;
+  vertical-align: top;
+}
+footer {
+  background-color: #a0a0a0;
+  font-size: 20px;
+  padding: 3vh 1vw;
 }
