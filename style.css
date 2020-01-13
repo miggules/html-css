@@ -1,0 +1,29 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+}
+caption {
+  font-size: 20px;
+  padding: 5px;
+}
+table, th, td {
+  border: 1px solid black;
+  text-align: center;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 8px;
+  font-size: 12px;
+}
+tbody tr:nth-child(1) td:nth-child(5) {
+  background-color: green;
+}
+tbody tr:nth-child(2) td:nth-child(6) {
+  background-color: red;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+tr:nth-child(odd) {
+  background-color: #606060;
+}
