@@ -46,6 +46,7 @@ nav, aside {
   margin: 5px;
   display: inline-block;
   height: 190px;
+  width: 90px;
   vertical-align: top;
 }
 footer {
