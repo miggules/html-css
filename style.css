@@ -4,47 +4,44 @@
   box-sizing: border-box;
 }
 #isaacnewton {
-  width: 60.5%;
+  width: 71.5%;
   padding: 20px;
   font-size: 12px;
   background-color: #ffffff;
   border-top: 3px solid #7BC5CA;
-  display: block;
-}
-#isaacnewton h2, #alberteinstein h2, #nikolatesla h2 {
-  background: #ffffff;
-}
-#isaacnewton img {
-  width: 12%;
   float: left;
   margin: 10px;
 }
-#isaacnewton p, #alberteinstein p, #nikolatesla p {
-  padding: 10px;
+h2 {
+  background: #ffffff;
+}
+#isaacnewton img {
+  width: 20%;
+  float: left;
+  margin-right: 10px;
 }
 #isaacnewton p, p i, #alberteinstein p, #nikolatesla p{
   background: #ffffff;
 }
-#isaacnewton a, #alberteinstein a, #nikolatesla a {
+a {
   padding: 10px;
-  margin: 10px;
+  margin-top: 20px;
   background-color: #7BC5CA;
   text-decoration: none;
   color: #ffffff;
 }
 #alberteinstein, #nikolatesla {
-  width: 30%;
+  width: 35%;
   padding: 20px;
   font-size: 12px;
   background-color: #ffffff;
   border-top: 3px solid #7BC5CA;
   display: inline-block;
-  margin-top: 10px;
-  margin-right: 10px;
+  margin: 10px;
   float: left;
 }
 #alberteinstein img, #nikolatesla img {
   float: left;
   width: 30%;
-  margin: 10px;
+  margin-right: 10px;
 }
