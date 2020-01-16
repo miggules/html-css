@@ -1,47 +1,27 @@
 * {
   font-family: 'Montserrat', sans-serif;
-  background-color: #f0f0f0;
-  box-sizing: border-box;
+  margin: 0;
+  background-color: transparent;
 }
-#isaacnewton {
-  width: 71.5%;
-  padding: 20px;
-  font-size: 12px;
-  background-color: #ffffff;
-  border-top: 3px solid #7BC5CA;
-  float: left;
-  margin: 10px;
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
 }
-h2 {
-  background: #ffffff;
+header {
+    background: #DBBEB4;
 }
-#isaacnewton img {
-  width: 20%;
-  float: left;
-  margin-right: 10px;
+nav {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
 }
-#isaacnewton p, p i, #alberteinstein p, #nikolatesla p{
-  background: #ffffff;
+nav img {
+  width: 8%;
+  border-radius: 50px;
 }
-a {
-  padding: 10px;
-  margin-top: 20px;
-  background-color: #7BC5CA;
+nav ul li a {
   text-decoration: none;
-  color: #ffffff;
-}
-#alberteinstein, #nikolatesla {
-  width: 35%;
-  padding: 20px;
-  font-size: 12px;
-  background-color: #ffffff;
-  border-top: 3px solid #7BC5CA;
-  display: inline-block;
-  margin: 10px;
-  float: left;
-}
-#alberteinstein img, #nikolatesla img {
-  float: left;
-  width: 30%;
-  margin-right: 10px;
+  color: #FFFFFF;
 }
